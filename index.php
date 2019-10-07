@@ -57,14 +57,17 @@ include "data/funnel.php"; include "data/funnel2.php"; */
         </div>
     </div>
 
-    <script type="text/javascript" class="include" src="js/jquery.min.js"></script>
-	<script type="text/javascript" class="include" src="js/jquery.jqplot.min.js"></script>
-	<script type="text/javascript" class="include" src="js/plugins/jqplot.dateAxisRenderer.min.js"></script>
-	<script type="text/javascript" class="include" src="js/plugins/jqplot.cursor.min.js"></script>
-	<script type="text/javascript" class="include" src="js/plugins/jqplot.highlighter.min.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jqplot.min.js"></script>
+    
+	<script type="text/javascript" src="js/jqplot.dateAxisRenderer.min.js"></script>
+	<script type="text/javascript" src="js/jqplot.cursor.min.js"></script>
+    <script type="text/javascript" src="js/jqplot.highlighter.min.js"></script>
+    
 	<script type="text/javascript" src="js/shCore.min.js"></script>
 	<script type="text/javascript" src="js/shBrushJScript.min.js"></script>
-	<script type="text/javascript" src="js/shBrushXml.min.js"></script>
+    <script type="text/javascript" src="js/shBrushXml.min.js"></script>
+    
 	<script type="text/javascript" src="js/main.js" class="code"></script>
 </body>
 </html>
